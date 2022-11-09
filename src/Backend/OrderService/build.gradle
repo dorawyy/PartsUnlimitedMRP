@@ -75,3 +75,8 @@ task integrationTest(type: Test, dependsOn: jar) {
         includeCategories 'smpl.ordering.repositories.mongodb.test.IntegrationTests'
     }
 }
+
+task testJar(type: Jar, dependsOn: testClasses) {
+    classifier = 'test'
+    from sourceSets.test.allSource
+}
