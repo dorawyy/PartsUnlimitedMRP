@@ -77,7 +77,7 @@ task integrationTest(type: Test, dependsOn: jar) {
     }
 }
 
-task testJar(type: Jar, dependsOn: testClasses) {
-    classifier = 'test'
-    from sourceSets.test.allSource
-}
+//task testJar(type: Jar, dependsOn: testClasses) {
+//    classifier = 'test'
+//    from sourceSets.test.allSource
+//}
