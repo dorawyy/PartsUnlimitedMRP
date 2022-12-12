@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: smpl.ordering.repositories.mongodb.test.MongoOrderRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in smpl.ordering.repositories.mongodb.test.MongoOrderRepositoryTest
-smpl.ordering.repositories.mongodb.test.MongoOrderRepositoryTest  Time elapsed: 0.011 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in smpl.ordering.repositories.mongodb.test.MongoOrderRepositoryTest
+smpl.ordering.repositories.mongodb.test.MongoOrderRepositoryTest  Time elapsed: 0.02 s  <<< ERROR!
 org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/data/yingying/msextraction/PartsUnlimitedMRP/src/Backend/OrderService/target/test-classes/smpl/ordering/TestOrderingConfiguration.class]; nested exception is java.lang.IllegalStateException: Could not obtain annotation attribute values
 	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:290)
 	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:242)
