@@ -30,7 +30,8 @@ public class DealerController
     public ResponseEntity getDealers()
     {
 		//Fix this line in Application Performance Monitoring HOL from 1000 to 1
-		int numMongoDBCalls = 100000; 
+		//int numMongoDBCalls = 100000; 
+		int numMongoDBCalls = 1; 
 		
         try
         {

@@ -16,6 +16,7 @@
 # Ignore Gradle GUI config 
 gradle-app.setting 
 
+
 ## Directory-based project format: 
 .idea/ 
 

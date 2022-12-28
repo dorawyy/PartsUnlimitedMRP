@@ -42,7 +42,8 @@ dependencies {
     compile("org.hibernate:hibernate-core:4.2.0.Final")
     compile("org.apache.httpcomponents:httpclient:4.3.5")
     testCompile("junit:junit")
-	compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.+'
+	    compile group: 'com.microsoft.azure', name: 'applicationinsights-core', version: '1.+'
+    //compile group: 'org.springframework.data', name: 'spring-data-commons', version: '1.9.0.RELEASE' // lisa
 }
 
 task wrapper(type: Wrapper) {
@@ -76,7 +77,7 @@ task integrationTest(type: Test, dependsOn: jar) {
     }
 }
 
-task testJar(type: Jar, dependsOn: testClasses) {
-    classifier = 'test'
-    from sourceSets.test.allSource
-}
+//task testJar(type: Jar, dependsOn: testClasses) {
+//    classifier = 'test'
+//    from sourceSets.test.allSource
+//}
